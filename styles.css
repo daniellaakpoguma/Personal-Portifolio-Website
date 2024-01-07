@@ -1,0 +1,32 @@
+/* Add a custom background color for the navbar */
+.custom-navbar {
+    background-color: #215838; /* Pink color */
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+
+.navbar-brand {
+    color: #ff70bf; /* Text color for the brand/logo */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Set the font weight to bold */
+    font-family: 'DM Serif Display';
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Background color for the toggler icon */
+}
+
+.nav-link {
+    color: #ff70bf;  /* Text color for the navigation links */
+    font-size: 1rem; /* Adjust the font size as needed */
+}
+
+/* Hover effect for the navigation links */
+.nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+#about{
+  
+}
