@@ -1,32 +1,78 @@
 /* Add a custom background color for the navbar */
 .custom-navbar {
     background-color: #215838; /* Pink color */
-    margin: 0;
-    padding: 0;
-    color: azure;
 }
 
 .navbar-brand {
     color: #ff70bf; /* Text color for the brand/logo */
-    font-size: 1.5rem; /* Adjust the font size as needed */
-    font-weight: bold; /* Set the font weight to bold */
+    font-size: 1.5rem; 
+    font-weight: bold;
     font-family: 'DM Serif Display';
-}
-
-.navbar-toggler-icon {
-    background-color: #fff; /* Background color for the toggler icon */
 }
 
 .nav-link {
     color: #ff70bf;  /* Text color for the navigation links */
-    font-size: 1rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    font-size: 1rem; 
 }
 
 /* Hover effect for the navigation links */
 .nav-link:hover {
     text-decoration: underline; /* Underline on hover */
+    color: #ffffff;
 }
 
-#about{
-  
+/* Sections */
+#beginning, #about, #projects, #contact{
+    width: 100vw; /* Set the width to 80% of the viewport width */
+    height: 85vh; /* Set the height to 50% of the viewport height */
 }
+
+/* beginning */
+
+#beginning{
+    padding: 50px;
+}
+
+#beginning h2{
+    color: #ff70bf;
+    font-weight: bold;
+    font-family: 'DM Serif Display';
+    font-size: 5rem; 
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#beginning p{
+    color:  #215838;
+    font-size: 2.5rem; 
+    text-align: center;
+    font-family: Montserrat;
+}
+
+#beginning button{
+    background-color:  #215838;
+    color: #ff70bf;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    margin-left: 37rem;
+}
+
+/* About Me Section*/
+#about{
+    background-color: #215838;  
+}
+
+/* Projects Section */
+#projects{
+    background-color: #ff70bf;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+#projects h2 { 
+    color: #215838;
+    font-family: 'DM Serif Display';
+    padding-top: 2rem; /* Reset margin to zero */
+}
+
