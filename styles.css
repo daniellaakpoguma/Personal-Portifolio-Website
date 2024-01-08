@@ -32,6 +32,7 @@
 
 #beginning{
     padding: 50px;
+    background-color: #215838;  
 }
 
 #beginning h2{
@@ -44,15 +45,15 @@
 }
 
 #beginning p{
-    color:  #215838;
+    color:  #ffffff;
     font-size: 2.5rem; 
     text-align: center;
     font-family: Montserrat;
 }
 
 #beginning button{
-    background-color:  #215838;
-    color: #ff70bf;
+    background-color:#ff70bf;
+    color: #ffffff;
     text-decoration: none;
     margin-top: 1.5rem;
     margin-left: 37rem;
@@ -60,19 +61,85 @@
 
 /* About Me Section*/
 #about{
-    background-color: #215838;  
+    height: 95vh; 
+    padding-right: 3rem;
 }
 
+#about h2{ 
+    padding-top: 2rem; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    color:  #ff70bf; 
+    font-family: 'DM Serif Display';
+}
+
+#about p, ul {
+    font-size: 25px;
+    font-family: Montserrat;
+}
 /* Projects Section */
 #projects{
-    background-color: #ff70bf;
+    background-color:  #215838;
     box-sizing: border-box;
     padding-left: 2rem;
+    height: 95vh;
 }
 
 #projects h2 { 
-    color: #215838;
+    color: #ff70bf;
     font-family: 'DM Serif Display';
-    padding-top: 2rem; /* Reset margin to zero */
+    font-weight: bold;
+    font-size: 70px;
+    padding-top: 2rem; 
+    text-align: center;
 }
 
+.btn-green{
+    background-color: #ff70bf;
+    color: #215838;
+}
+
+/* Contact Me Section */
+#contact{
+    height: 50vh;
+    padding-left:5rem;
+}
+
+#contact h2 { 
+    padding-top: 2rem; 
+    text-align: center;
+    font-weight: bold;
+    color: #ff70bf;
+    font-family: 'DM Serif Display';
+    font-size: 70px;
+}
+#contact a{ 
+    margin-bottom: 5rem;
+}
+
+form div{
+    padding-bottom: 1rem;
+}
+
+#contact p{
+    font-family: Montserrat;
+    font-size:20px;
+}
+
+.fa-linkedin {
+    background:#ff70bf;
+    color: white;
+    font-size: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #contact .contact-details{
+    padding-right: 5rem;
+  }
