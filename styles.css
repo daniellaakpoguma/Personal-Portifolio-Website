@@ -1,145 +1,132 @@
-/* Add a custom background color for the navbar */
-.custom-navbar {
-    background-color: #215838; /* Pink color */
-}
+/* Fonts */
+@font-face {
+    font-family: 'Peach Cake';
+    src: url('fonts/Peach\ Cake.otf') format('woff'); 
+  }
 
-.navbar-brand {
-    color: #ff70bf; /* Text color for the brand/logo */
-    font-size: 1.5rem; 
+
+@font-face {
+    font-family: 'Adelia';
+    src: url('fonts/ADELIA.otf') format('woff'); 
+  }
+
+
+/* Navigation Bar  Section */
+.navbar{
     font-weight: bold;
-    font-family: 'DM Serif Display';
+    background-color:  #000000;
+    font-family: 'Roboto Mono';
 }
 
-.nav-link {
-    color: #ff70bf;  /* Text color for the navigation links */
-    font-weight: bold;
-    font-size: 1rem; 
+.navbar a {
+    padding-right: 50px;
+    color: #FFDC49;
+    font-family: 'Roboto Mono';
 }
 
-/* Hover effect for the navigation links */
-.nav-link:hover {
-    text-decoration: underline; /* Underline on hover */
+.navbar a:hover{
     color: #ffffff;
 }
 
-/* Sections */
-#beginning, #about, #projects, #contact{
-    width: 100vw; /* Set the width to 80% of the viewport width */
-    height: 85vh; /* Set the height to 50% of the viewport height */
+#navbar_logo{
+    color: #FFDC49;
+    padding-left: 20px;
+    font-family: 'Roboto Mono';
 }
 
-/* beginning */
 
-#beginning{
-    padding: 50px;
-    background-color: #215838;  
-}
-
-#beginning h2{
-    color: #ff70bf;
-    font-weight: bold;
-    font-family: 'DM Serif Display';
-    font-size: 5rem; 
+/* Home Section */
+.home{
+    height: 1000px;
     text-align: center;
-    padding-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #070e73;
+    padding-top: 50px;
 }
 
-#beginning p{
-    color:  #ffffff;
-    font-size: 2.5rem; 
+
+.home h1{
     text-align: center;
-    font-family: Montserrat;
+    font-size: 8vw;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    color: #FFDC49;
+    font-family: 'Peach Cake';
+    font-family: 'Adelia';
 }
 
-#beginning button{
-    background-color:#ff70bf;
-    color: #ffffff;
-    text-decoration: none;
-    margin-top: 1.5rem;
-    margin-left: 37rem;
+.home h3{
+    font-family: 'Roboto Mono';
+    font-size: 3vw;
+    color:  white;
+    margin-bottom: 40px;
 }
 
-/* About Me Section*/
-#about{
-    height: 95vh; 
-    padding-right: 3rem;
+.home button{
+    font-family: 'Roboto Mono';
+    background-color: #FFDC49;
+    padding: 15px 30px;
+    margin-bottom: 40px;
+    font-size: 15px;
 }
 
-#about h2{ 
-    padding-top: 2rem; 
-    text-align: center;
-    font-weight: bold;
-    font-size: 70px;
-    color:  #ff70bf; 
-    font-family: 'DM Serif Display';
-}
-
-#about p, ul {
-    font-size: 25px;
-    font-family: Montserrat;
-}
-/* Projects Section */
-#projects{
-    background-color:  #215838;
-    box-sizing: border-box;
-    padding-left: 2rem;
-    height: 95vh;
-}
-
-#projects h2 { 
-    color: #ff70bf;
-    font-family: 'DM Serif Display';
-    font-weight: bold;
-    font-size: 70px;
-    padding-top: 2rem; 
-    text-align: center;
-}
-
-.btn-green{
-    background-color: #ff70bf;
-    color: #215838;
-}
 
 /* Contact Me Section */
-#contact{
-    height: 50vh;
-    padding-left:5rem;
+.contact-me{
+    background-color:  #000000;
+    height: 500px;
+    display: flex;
 }
 
-#contact h2 { 
-    padding-top: 2rem; 
-    text-align: center;
+.contact-me label{
+    color: #FFDC49;
     font-weight: bold;
-    color: #ff70bf;
-    font-family: 'DM Serif Display';
-    font-size: 70px;
-}
-#contact a{ 
-    margin-bottom: 5rem;
+    font-family: 'Roboto Mono';
 }
 
-form div{
-    padding-bottom: 1rem;
+.btn-primary {
+    margin-top: 10px;
+    font-family: 'Roboto Mono';
+    background-color: #FFDC49;
 }
 
-#contact p{
-    font-family: Montserrat;
-    font-size:20px;
+form{
+    width: 60%;
+    padding: 20px 20px;
 }
 
-.fa-linkedin {
-    background:#ff70bf;
+.contact-me-info h3{
+    font-family: 'Roboto Mono';
+    color: #FFDC49;
+    padding-top: 20px;
+}
+
+.contact-me-info p{
     color: white;
     font-size: 30px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 1rem;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-  }
+}
 
-  #contact .contact-details{
-    padding-right: 5rem;
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px width (typically tablets) */
+    h1{
+        font-size: 80px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 10px;
+    }
   }
+  
+  @media screen and (max-width: 480px) {
+    /* Styles for screens up to 480px width (typically smartphones) */
+    h1{
+
+    }
+  }
+  
